@@ -8,7 +8,7 @@
 - Open command prompt by typing `cmd` in the windows search bar.
 - Type ``ssh <username>@ieng6.ucsd.edu`` 
 - Enter in your password when promoted (nothing will appear when you type so don't freak out)
-![Image](remote1.png)
+![Image](/Lab%201/remote1.png)
 
 ## Trying Some Commands
 
