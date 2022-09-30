@@ -57,9 +57,15 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+ 
 ```
+- Log onto the **remote** computer and enter\
+``mkdir .ssh``\
+``exit``
 
-- SCP the public key (the file that ends in .pub) into the remote computer\
+- SCP the public key (the file that ends in .pub) from the **client** to the remote computer\
 ``scp /Users/andre/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh/authorized_keys``
-- Now you should be able to login without entering your password\
+
+
+
+- Now you should be able to login to the **remote** computer without entering your password\
 ![Image](ssh1.png)
 ## Optimizing Remote Running
