@@ -16,11 +16,20 @@
 ![Image](remote1.png)
 
 ## Trying Some Commands
+- Some specific commands to try\
+``cd~``\
+``cd``\
+``ls -lat``\
+``ls <directory>``\
+``cp``\
+``cat``\
+``pwd``\
+- Some of the outputs from the commands mentioned above\
+![Image](commands1.png)
 
 
 ## Moving Files with SCP
 - Use this command to move files from the client to the remote computer\
-
 ``scp <filename> <username>@ieng6.ucsd.edu ``\
 ![Image](scp1.png)
 
@@ -80,4 +89,5 @@ The key's randomart image is:
 ![Image](optimizing1.png)\
 ``ssh <username>@ieng6.ucsd.edu “javac WhereAmI.java ; java WhereAmI”``\
 ![Image](optimizing2.png)
+
 - So only 8 clicks to switch between tabs, copy, and paste each item.
