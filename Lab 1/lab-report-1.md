@@ -75,3 +75,9 @@ The key's randomart image is:
 ![Image](ssh1.png)
 
 ## Optimizing Remote Running
+- We can upload the file by copy pasting a single command into the box after editing:\
+``scp WhereAmI.java <username>@ieng6.ucsd.edu:~/ ``\
+![Image](optimizing1.png)\
+``ssh <username>@ieng6.ucsd.edu “javac WhereAmI.java ; java WhereAmI”``\
+![Image](optimizing2.png)
+- So only 8 clicks to switch between tabs, copy, and paste each item.
