@@ -15,20 +15,46 @@
 ``scp <filename> <username>@ieng6.ucsd.edu ``\
 ![Image](scp1.png)
 - Accessing and running the file on the remote server using\
-``cd <file location>``
+``cd <file location>``\
 ``javac <filename>.java``\
 ``java <classname>``\
 ![Image](scp2.png)
 
 ## Setting an SSH Key
-- ``ssh-keygen``
+- Type ``ssh-keygen`` to generate a public/priavte rsa key pair.
 - Press enter with nothing entered for the prompts: \
 ``Enter file in which to save the key:``\
 ``Enter passphrase:``\
 ``Enter same passphrase again: ``
+- Your command prompt should look something like this
+
+``` 
+# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/andre/.ssh/id_rsa): /Users/andre/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/andre/.ssh/id_rsa.
+Your public key has been saved in /Users/andre/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+ 
+```
+
 - SCP the public key (the file that ends in .pub) into the remote computer\
 ``scp /Users/andre/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh/authorized_keys``
 - Now you should be able to login without entering your password\
 ![Image](ssh1.png)
-
 ## Optimizing Remote Running
