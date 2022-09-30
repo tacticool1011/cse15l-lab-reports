@@ -1,7 +1,5 @@
 # Lab Report 1 - Remote Access and the Filesystem
 
-# CSE 15L Lab Reports
-
 ## Installing VScode
 
 ## Remotely Connecting
@@ -12,10 +10,12 @@
 
 ## Trying Some Commands
 
-## Moving Files with scp
-- Use this command to move files from the client to the remote computer: ``scp <filename> <username>@ieng6.ucsd.edu ``\
+## Moving Files with SCP
+- Use this command to move files from the client to the remote computer\
+``scp <filename> <username>@ieng6.ucsd.edu ``\
 ![Image](scp1.png)
-- Accessing the and running the file on the remote server using\
+- Accessing and running the file on the remote server using\
+``cd <file location>``
 ``javac <filename>.java``\
 ``java <classname>``\
 ![Image](scp2.png)
@@ -23,7 +23,7 @@
 ## Setting an SSH Key
 - ``ssh-keygen``
 - Press enter with nothing entered for the prompts: \
-``Enter file in which to save the key``\
+``Enter file in which to save the key:``\
 ``Enter passphrase:``\
 ``Enter same passphrase again: ``
 - SCP the public key (the file that ends in .pub) into the remote computer\
