@@ -13,7 +13,7 @@
 ## Trying Some Commands
 
 ## Moving Files with scp
-- Use this command to move files from the client to the remote computer: ``scp <filename> <username>@ieng6.ucsd.edu ``
+- Use this command to move files from the client to the remote computer: ``scp <filename> <username>@ieng6.ucsd.edu ``\
 ![Image](scp1.png)
 - Accessing the and running the file on the remote server using\
 ``javac <filename>.java``\
@@ -28,7 +28,7 @@
 ``Enter same passphrase again: ``
 - SCP the public key (the file that ends in .pub) into the remote computer\
 ``scp /Users/andre/.ssh/id_rsa.pub <username>@ieng6.ucsd.edu:~/.ssh/authorized_keys``
--Now you should be able to login without entering your password
+- Now you should be able to login without entering your password\
 ![Image](ssh1.png)
 
 ## Optimizing Remote Running
