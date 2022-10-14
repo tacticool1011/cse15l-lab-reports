@@ -57,13 +57,17 @@ class SearchEngine {
 ## Search Engine in Action
 ![Image](images/server1.png)
 - The ``handleRequest(URL url)`` method was called and went into the ``if (url.getPath().contains("/add))`` if statement.
-- It then proceeds to split the add call by the ``=`` sign with the left side of the sign being the add type and the right side of the sign being the value added into the list\
+- It then proceeds to split the add call by the ``=`` sign with the left side of the sign being the add type and the right side of the sign being the value added into the list
+
 ![Image](images/server2.png)
-- After checking if ``parameters[0].equals("s")``, the program appends ``parameters[1]`` into the list and displays on the website that the String was added.\
+- After checking if ``parameters[0].equals("s")``, the program appends ``parameters[1]`` into the list and displays on the website that the String was added.
+
 ![Image](images/server3.png)
 - Repeat of image 1 but with a different String value.
+
 ![Image](images/server4.png)
 - Repeat of image 2.
+
 ![Image](images/server5.png)
 - The ``handleRequest(URL url)`` method was called and went into the ``if (url.getPath().contains("/search))`` if statement.
 - It then proceeds to split the add call by the ``=`` sign with the left side of the sign being the add type and the right side of the sign being the value added into the list
