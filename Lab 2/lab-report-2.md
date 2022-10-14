@@ -72,7 +72,7 @@ class SearchEngine {
 - The ``handleRequest(URL url)`` method was called and went into the ``if (url.getPath().contains("/search))`` if statement.
 - It then proceeds to split the add call by the ``=`` sign with the left side of the sign being the add type and the right side of the sign being the value added into the list
 - After checking if ``parameters[0].equals("s")``, the program appends creates a ``newList`` and appends the relevant Strings into that list.
-- It then displays that contents of that list onto the webpage.\
+- It then displays that contents of that list onto the webpage.
 
 ## Bugs
 ### Bug #1
@@ -105,7 +105,7 @@ Caused by: java.lang.AssertionError: expected:<5> but was:<7>
         at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
         ... 36 more
-
+        
 FAILURES!!!
 Tests run: 1,  Failures: 1
 ```
