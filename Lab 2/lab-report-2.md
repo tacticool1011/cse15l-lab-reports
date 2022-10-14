@@ -77,6 +77,7 @@ class SearchEngine {
 ## Bugs
 ### Bug #1
 - Failure-inducing Input:
+
 ```
 @Test 
 public void testReverseInPlaceBug() {
@@ -87,6 +88,7 @@ public void testReverseInPlaceBug() {
 ```
 
 - Failure-inducing Ouput: 
+
 ```
 1) testReverseInPlaceBug(ArrayTests)
 arrays first differed at element [2]; expected:<5> but was:<7>
@@ -109,6 +111,7 @@ Caused by: java.lang.AssertionError: expected:<5> but was:<7>
 FAILURES!!!
 Tests run: 1,  Failures: 1
 ```
+
 - The Bug
 - - The ``reverseInPlace(int[] arr)`` method was not replacing the value that was swapped with the element at the end while reversing. To fix this, I created a ``temp`` variable to store the element that was getting swapped and then reassigning ``temp`` to the element it got swapped with.
 - Connection
@@ -116,6 +119,7 @@ Tests run: 1,  Failures: 1
 
 ### Bug #2
 - Failure-inducing Input:
+
 ```
 @Test
 public void testMerge(){
@@ -138,6 +142,7 @@ public void testMerge(){
 ```
 
 - Failure-inducing Ouput: 
+
 ```
 1) testMerge(ListTests)
 java.lang.AssertionError: expected:<[bruh, eat, eat, eck, hi, slime]> but was:<[bruh, eat, slime, hi, eat, eck]>
@@ -150,6 +155,7 @@ java.lang.AssertionError: expected:<[bruh, eat, eat, eck, hi, slime]> but was:<[
 FAILURES!!!
 Tests run: 1,  Failures: 1
 ```
+
 - The Bug
 - - When the ``merge()`` method adds on the remaining element from either list after going through both lists simultaneously, it increases ``index1`` by 1 instead of increasing ``index2``. Therefore, the fix for this bug is to change ``index1`` to ``index2`` in the second third while loop of the method.
 - Connection
