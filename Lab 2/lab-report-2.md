@@ -63,15 +63,18 @@ class SearchEngine {
 - After checking if ``parameters[0].equals("s")``, the program appends ``parameters[1]`` into the list and displays on the website that the String was added.
 
 ![Image3](images/server3.png)
-- Repeat of image 1 but with a different String value.
+- Repeat of image 1 but with a different String value. 
+- The ``handleRequest(URL url)`` method gets called again and goes into the ``if (url.getPath().contains("/add"))`` again.
+- The string proceeds to get split again by the ``=`` sign and appends a string value of ``"pineapple"``.
 
 ![Image4](images/server4.png)
-- Repeat of image 2.
+- After checking if ``parameters[0].equals("s")``, the program appends ``parameters[1]`` into the list and displays on the website that the String was added.
+- In this case, it updated the list with the newly appended ``"pineapple"`` string.
 
 ![Image5](images/server5.png)
 - The ``handleRequest(URL url)`` method was called and went into the ``if (url.getPath().contains("/search))`` if statement.
 - It then proceeds to split the add call by the ``=`` sign with the left side of the sign being the add type and the right side of the sign being the value added into the list
-- After checking if ``parameters[0].equals("s")``, the program appends creates a ``newList`` and appends the relevant Strings into that list.
+- After checking if ``parameters[0].equals("s")``, the program creates a ``newList`` and appends the relevant Strings into that list.
 - It then displays that contents of that list onto the webpage.
 
 ## Bugs
