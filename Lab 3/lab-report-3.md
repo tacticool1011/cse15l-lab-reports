@@ -4,6 +4,7 @@
 
 ### ``-c`` Displays the count of number of matches
 - ``-c`` is useful when you just want to look at numbers and not the contents of the matches.
+
 ```
 Input:
 grep -c "the" ./911report/chapter-1.txt
@@ -38,6 +39,7 @@ Ouput:
 ./911report/chapter-9.txt:19
 ./911report/preface.txt:8
 ```
+
 - It searches the contents of all the files in the directory ``./911report/`` that contains the word ``nation``.
 - The output prints out every single file in that directory and indicates how many matches it find for each file.
 
@@ -51,12 +53,14 @@ Ouput:
 ./government/Alcohol_Problems/Session3-PDF.txt:4
 ./government/Alcohol_Problems/Session4-PDF.txt:3
 ```
+
 - It searches the contents of all the files in the ``./government/Alcohol_Problems/`` directory that contains the word ``counter``.
 - The output searches the contents of each file whether or not there is a match or not.
 - If there is no match, it will print out 0 for that file path.
 
 ### ``-l`` Displays the file names that matches the pattern
 - ``l`` is useful when you just want to see which files contain the matches.
+
 ```
 Input:
 grep -l "defense" ./911report/*
@@ -76,6 +80,7 @@ Ouput:
 ./911report/chapter-8.txt
 ./911report/chapter-9.txt
 ```
+
 - It searches the contents of all the files in the directory ``./911report/`` that contains the word ``defense``.
 - Instead of indicating how many matches for each file, it just prints the files that contain matches.
 
@@ -106,6 +111,7 @@ Ouput:
 ./government/Media/Understanding.txt
 ./government/Media/highlight_Senior_Day.txt
 ```
+
 - It searches the contents of all the files in the directory ``./government/*/*`` that contains the word ``patient``.
 - The output contains all the file directories that contains a match.
 
@@ -116,11 +122,13 @@ grep -l "bomb" ./government/Alcohol_Problems/Session2-PDF.txt
 Ouput:
 
 ```
+
 - It searches the contents of in the file ``./government/Alcohol_Problems/Session2-PDF.txt`` that contains the word ``bomb``.
 - Since there were no matches, it printed nothing in the output.
 
 ### ``-w`` Checking for the whole words in a file
 - ``w`` is useful when you want to see which files have matches and where the matches are in the content.
+
 ```
 Input:
 grep -w "civilization" ./911report/*
@@ -140,6 +148,7 @@ grep -w "a;slkdfja;slkjdfd" ./*/*/*
 Ouput:
 
 ```
+
 - It searches the contents of all the files in the directory ``./*/*/*`` that contains the word ``a;slkdfja;slkjdfd``.
 - Since there were no matches, it printed nothing.
 
@@ -152,6 +161,7 @@ a screen for alcohol abuse and dependence, has 24 yes/no questions.
 has 35 yes/no questions. While lengthy, the SAAST has the advantage
 improve efficiency.35 If one question answered "yes" yields a
 ```
+
 - It searches the contents of in the file ``./government/Alcohol_Problems/Session2-PDF.txt`` that contains the word ``yes``.
 - Since there were matches and it's a singular file, it printed out only the matching contents.
 
