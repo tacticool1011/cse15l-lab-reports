@@ -12,6 +12,7 @@ grep -c "the" ./911report/chapter-1.txt
 Ouput:
 313
 ```
+
 - It searches the contents of chapter-1.txt and sees how many words match with "the".
 - The output is printed as the total unmber of matches.
 
@@ -138,6 +139,7 @@ Ouput:
 ./911report/chapter-12.txt:                itself caught up in a clash within a civilization. That clash arises from particular
 ./911report/chapter-2.txt:                saddening to tell you that you are the worst civilization witnessed by the history
 ```
+
 - It searches the contents of all the files in the directory ``./911report/*`` that contains the word ``civilization``.
 - In the output, it prints the matching directories as well as the contents of the file that matches the word.
 
