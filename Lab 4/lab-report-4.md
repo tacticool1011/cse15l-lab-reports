@@ -18,7 +18,7 @@ In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``get
 
 4. ``b`` ``a`` ``s`` ``e``\
 ![Image](images/p4.png)
-- - Write the word ``base``
+- - Writes the word ``base``
 
 5. ``<esc>``\
 ![Image](images/p5.png)
