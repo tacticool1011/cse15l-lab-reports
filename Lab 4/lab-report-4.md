@@ -6,7 +6,7 @@ In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``get
 
 1. ``/`` ``s`` ``t`` ``a`` ``r`` ``t``\
 ![Image](images/p1.png)
-- - Jumps to an occurance of ``start`` 
+- - Jumps to an occurrence of ``start`` 
 
 2. ``<Enter>``\
 ![Image](images/p2.png)
@@ -26,7 +26,7 @@ In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``get
 
 6. ``n``\
 ![Image](images/p6.png)
-- - Goes to the next occurance of ``start``
+- - Goes to the next occurrence of ``start``
 
 7. ``.``\
 ![Image](images/p7.png)
@@ -34,7 +34,7 @@ In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``get
 
 8. ``n``\
 ![Image](images/p10.png)
-- -  Goes to the next occurance of ``start``
+- -  Goes to the next occurrence of ``start``
 
 9. ``.``\
 ![Image](images/p11.png)
