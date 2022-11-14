@@ -40,6 +40,10 @@ In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``get
 ![Image](images/p11.png)
 - - Repeats the previous command, which was ``c`` ``e`` and ``b`` ``a`` ``s`` ``e``
 
+10. ``:`` ``w`` ``q``\
+![Image](images/p12.png)
+- - Saves and exits vim.
+
 ## Part 2
 
 ### Style 1
