@@ -54,8 +54,10 @@
 - 5. Assigns varriable
 - 6. For each student submission
 - 7. Indicates a for loop body
-- 8. remove student-submission file, return code zero, stdout is nothing, stderr is nothing
-- 9. clones the repo, return code zero, stdout is nothing, stderr is nothing
+- 8. remove student-submission file, return code zero, 
+stdout is nothing, stderr is nothing
+- 9. clones the repo, return code zero, 
+stdout is nothing, stderr is nothing
 - 10. Condition is false because the Repo is found\
 - 11. Doesn't run - if branch
 - 12. Doesn't run - if branch
@@ -63,19 +65,25 @@
 - 14. Doesn't run - if branch
 - 15. Doesn't run - if branch
 - 16. Doesn't run (blank line)
-- 17. Copies TestListExamples into student-submission, return code zero, stdout is nothing, stderr is nothing
-- 18. Copies Score.java into student-submission, return coede zero, stdout is nothing, stderr is nothing
+- 17. Copies TestListExamples into student-submission, return code zero, 
+stdout is nothing, stderr is nothing
+- 18. Copies Score.java into student-submission, return coede zero, 
+stdout is nothing, stderr is nothing
 - 19. Doesn't run (blank line)
-- 20. Set current directory to student-submission, return code zero, stdout is nothing, stderr is nothing
+- 20. Set current directory to student-submission, return code zero, 
+stdout is nothing, stderr is nothing
 - 21. Condition is false because the ListExamples.java is found
 - 22. Doesn't run - if branch
 - 23. Doesn't run - if branch
 - 24. Doesn't run - if branch
 - 25. Doesn't run - if branch
 - 26. Doesn't run (blank line)
-- 27. Compiles Score.java, return code zero, stdout is nothing, stderr is nothing
-- 28. Compiles all java files, return code zero, stdout is nothing, stderr is nothing
-- 29. Compiles all ListExamples files, return code zero, stdout is nothing, stderr is nothing
+- 27. Compiles Score.java, return code zero, 
+stdout is nothing, stderr is nothing
+- 28. Compiles all java files, return code zero, 
+stdout is nothing, stderr is nothing
+- 29. Compiles all ListExamples files, return code zero, 
+stdout is nothing, stderr is nothing
 - 30. Doesn't run (blank line)
 - 31. Condition is false because compilation was successfull
 - 32. Doesn't run - if branch
