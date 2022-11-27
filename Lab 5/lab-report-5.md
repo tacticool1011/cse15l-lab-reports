@@ -83,10 +83,14 @@
 - 34. Doesn't run - if branch
 - 35. Doesn't run - if branch
 - 36. Doesn't run (blank line)
-- 37. Runs the TestListExamples.java file, return code zero, stdout is "Tests run: 14, Failures: 4", stderr is nothing
-- 38. Displays the results, return code zero, stdout is "Tests run: 14, Failures: 4", stderr is nothing
-- 39. Reads in the raw score from the results.txt, return code zero, stdout is nothing, stderr is nothing
-- 40. Displays the formatted score, return code zero, stdout is "Tests run: 14, Failures: 4 \n 71.43%", stderr is nothing
+- 37. Runs the TestListExamples.java file, return code zero, 
+stdout is "Tests run: 14, Failures: 4", stderr is nothing
+- 38. Displays the results, return code zero, 
+stdout is "Tests run: 14, Failures: 4", stderr is nothing
+- 39. Reads in the raw score from the results.txt, return code zero, 
+stdout is nothing, stderr is nothing
+- 40. Displays the formatted score, return code zero, 
+stdout is "Tests run: 14, Failures: 4 \n 71.43%", stderr is nothing
 - 41. Done. Return code zero, stdout is nothing, stderr is nothing.
 ```
 
