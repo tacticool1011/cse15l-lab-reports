@@ -46,6 +46,7 @@
 
 ## Student Submission 1
 ![Image](images/p1.png)
+```
 - 1. Assigns variable
 - 2. Assigns variable
 - 3. Assigns variable
@@ -87,6 +88,7 @@
 - 39. Reads in the raw score from the results.txt, return code zero, stdout is nothing, stderr is nothing
 - 40. Displays the formatted score, return code zero, stdout is "Tests run: 14, Failures: 4 \n 71.43%", stderr is nothing
 - 41. Done. Return code zero, stdout is nothing, stderr is nothing.
+```
 
 ## Student Submission 2
 ![Images](images/p2.png)
