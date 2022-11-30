@@ -4,6 +4,8 @@
 
 In ``DocSearchServer.java``, change the name of the ``start`` parameter of ``getFiles``, and all of its uses, to instead be called ``base``.
 
+Commands: `` /start<enter>cebase<esc>n.n.:wq ``
+
 1. ``/`` ``s`` ``t`` ``a`` ``r`` ``t``\
 ![Image](images/p1.png)
 - - Jumps to an occurrence of ``start`` 
